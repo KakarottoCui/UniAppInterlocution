@@ -1,0 +1,116 @@
+{
+	"easycom": {
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "小思问答"
+			}
+		},
+		{
+			"path": "pages/more/more",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/ranking/ranking",
+			"style": {
+				"navigationBarTitleText": "排行"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	    ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "问答详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/editQuestion/editQuestion",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "创建提问",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/xiaoSi/xiaoSi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "小思助手",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/collectItem/collectItem",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "轻问答",
+		"navigationBarBackgroundColor": "#09a0f7",
+		"backgroundColor": "#e9ecef"
+	},
+	"uniIdRouter": {},
+	
+	"tabBar": {
+		"color": "#000",
+		"selectedColor": "#09a0f7",
+		"backgroundColor": "#fff",
+		"borderStyle": "white",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/tbar_icon/home.png",
+				"selectedIconPath": "./static/img/tbar_icon/home-active.png",
+				"text": "首页"
+			},
+			// {
+			// 	"pagePath": "pages/more/more",
+			// 	"iconPath": "static/img/tbar_icon/more.png",
+			// 	"selectedIconPath": "./static/img/tbar_icon/more-active.png",
+			// 	"text": "分类"
+			// },
+			{
+				"pagePath": "pages/xiaoSi/xiaoSi",
+				"iconPath": "static/img/tbar_icon/robot.png",
+				"selectedIconPath": "./static/img/tbar_icon/robot-active.png",
+				"text": "小思"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/img/tbar_icon/my.png",
+				"selectedIconPath": "./static/img/tbar_icon/my-active.png",
+				"text": "我的"
+			}
+		]
+	}
+}
