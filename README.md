@@ -1,7 +1,7 @@
 # UniAppInterlocution
 基于springboot和uniapp的智能问答论坛社区小程序
 
-演示视频链接:
+演示视频链接:https://live.csdn.net/v/272298
 
 项目实现功能
 
